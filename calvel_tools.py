@@ -250,7 +250,7 @@ def hist_delres(bolos, els, del_res, norm_ob, plot_type='all_bolos', **kwargs):
 
 
 
-def delres_onfplane(bolos, obs, delres, dres_cutoff=None, title=('Delta Response on ' + str(scan[0]['ObservationStart']).split(':')[0])):    
+def delres_onfplane(bolos, obs, delres, dres_cutoff=None, title=''):    
     
     '''
     INPUTS:
